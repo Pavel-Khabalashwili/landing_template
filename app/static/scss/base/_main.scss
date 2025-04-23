@@ -1,0 +1,78 @@
+/* ПОДКЛЮЧЕНИЕ ШРИФТОВ */
+
+@font-face {
+    font-family: "";
+    src: local(""),
+        url("") format("woff2"),
+        url("") format("woff");
+    font-weight: ;
+    font-style: ;
+    font-display: swap;
+}
+
+
+/* --------------------------------------------------------- */
+
+/* БАЗОВЫЕ СТИЛИ */
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+
+
+:root {
+    --container-width: 1790px;
+    --container-padding: 15px;
+}
+
+.page {
+    min-width: 320px;
+    font-family: "", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: $color-black;
+    /* overflow-x: hidden; */
+}
+
+/* --------------------------------------------------------- */
+
+/* ОСНОВНЫЕ СТИЛИ ДЛЯ ОБЩИХ ЭЛЕМЕНТОВ */
+
+.container {
+    max-width: var(--container-width);
+    width: 100%;
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section-title {
+
+}
+
+.section-descr {
+
+}
+
+.section-offset {
+}
+
+
+/* --------------------------------------------------------- */
+
+.hide-block {
+    display: none !important;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+// Адаптив
